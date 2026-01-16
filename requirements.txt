@@ -1,0 +1,11 @@
+streamlit
+psycopg2-binary
+mysql-connector-python
+pandas
+plotly
+pyyaml
+google-generativeai
+python-dotenv
+vanna
+chromadb
+bcrypt

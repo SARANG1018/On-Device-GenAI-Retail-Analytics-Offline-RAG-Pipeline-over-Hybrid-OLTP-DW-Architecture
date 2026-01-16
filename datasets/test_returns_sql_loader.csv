@@ -1,0 +1,6 @@
+return_status,return_id,return_region
+Yes,TEST-ORD-001,Central
+No,TEST-ORD-002,Eastern
+Yes,TEST-ORD-003,Western
+No,TEST-ORD-004,Southern
+Yes,TEST-ORD-005,Central

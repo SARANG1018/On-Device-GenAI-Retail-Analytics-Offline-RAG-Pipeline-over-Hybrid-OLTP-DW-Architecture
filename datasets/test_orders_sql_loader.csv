@@ -1,0 +1,6 @@
+order_id,customer_id,order_date,order_priority,product_id,quantity,sales_amount,discount,shipping_cost,ship_date,ship_mode
+TEST-ORD-001,TEST-CUST-001,2025-12-14,High,TEC-CO-5994,1,1299.99,0.1,50.00,2025-12-13,Standard Class
+TEST-ORD-002,TEST-CUST-002,2025-12-14,Medium,OFF-AP-4493,2,299.99,0.05,25.00,2025-12-13,Express Class
+TEST-ORD-003,TEST-CUST-003,2025-12-14,Low,OFF-PA-3156,5,49.99,0.0,10.00,2025-12-13,Standard Class
+TEST-ORD-004,TEST-CUST-001,2025-12-14,Critical,TEC-CO-5994,3,79.99,0.15,15.00,2025-12-13,Same Day
+TEST-ORD-005,TEST-CUST-002,2025-12-14,High,OFF-AP-4493,1,599.99,0.0,75.00,2025-12-13,Standard Class
