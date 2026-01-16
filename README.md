@@ -119,7 +119,7 @@ Testing for ETL validation, authentication, query generation, data quality, perf
 - **Frontend**: Streamlit
 - **Databases**: PostgreSQL 16 (OLTP), MySQL 8 (DW)
 - **Processing**: Python, Pandas
-- **AI/LLM**: Ollama with Mistral 7B (local, on-device only)
+- **AI/LLM**: Vanna.AI, Ollama with Mistral 7B (local, on-device only)
 - **Visualization**: Plotly
 - **Security**: Bcrypt
 - **Config**: YAML

@@ -47,6 +47,9 @@ htmlcov/
 Thumbs.db
 .DS_Store
 
+# Project-specific
+ps/
+
 # Database
 *.db
 *.sqlite
