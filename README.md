@@ -177,12 +177,7 @@ The system comes with starter questions for immediate testing:
 • Show me sales by product category
 ```
 
-Add more questions to `questions` file to extend the training data.
+Ask more questions once you get the idea of the problem I am trying to solve!
 
 ---
 
-**Authors**: Sarang, Sajitha, Chatat | NYU Fall 2025 Advanced Data Engineering Project
-
-**Repository**: https://github.com/SARANG1018/A-Hybrid-OLTP-DW-System-with-an-AI-Powered-Analytics-Interface
-
-**Last Updated**: January 16, 2026
