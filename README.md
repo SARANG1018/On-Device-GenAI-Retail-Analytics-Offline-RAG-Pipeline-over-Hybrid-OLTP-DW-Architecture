@@ -61,14 +61,6 @@ Zero data leakage. No API calls to OpenAI/Gemini. 2-5 second query response. Wor
 
 **Result**: The system handles common questions instantly (keyword matching) and novel questions accurately (informed LLM) while maintaining complete privacy.
 
-<div align="center">
-
-![AI Analytics Interface](imgs/image%20(17).png)
-
-*Agentic RAG generating actionable business recommendations and merchant insights.*
-
-</div>
-
 ## How It Works: Query Execution
 
 **Standard Question**: "Show me sales by product category"
@@ -165,47 +157,15 @@ streamlit run main.py
 
 Access at `http://localhost:8501`
 
-<div align="center">
-
-![Bulk Data Ingestion](imgs/image%20(8).png)
-
-*SQL Bulk Loader interface for large-scale offline data ingestion and validation.*
-
-</div>
-
 ## Key Achievements
 
 - ✅ **Sub-30 Second ETL** for 96K+ records (CDC-based incremental load)
-
-<div align="center">
-
-![ETL Management](imgs/image%20(14).png)
-
-*Real-time ETL dashboard showing CDC-based synchronization between OLTP (PostgreSQL) and DW (MySQL).*
-
-</div>
 - ✅ **Keyword-Based Reliability** with 35 pre-trained business questions
 - ✅ **Zero Cloud Data Leakage** using local Ollama/Mistral LLM only
 - ✅ **Complete Privacy** with PII masking and audit logging
 - ✅ **Multi-Role System** with database-level RBAC (Sales Associate, Store Manager, Executive)
-
-<div align="center">
-
-![RBAC Security](imgs/image%20(10).png)
-
-*Enterprise-grade Role-Based Access Control (RBAC) interface for secure data access.*
-
-</div>
 - ✅ **7 Data Quality Checks** running automatically before each load
 - ✅ **96 Monthly Partitions** enabling 10x faster time-series queries
-
-<div align="center">
-
-![Database Partitioning](imgs/image%20(15).png)
-
-*High-performance data distribution across 72+ partitions for optimized time-series queries.*
-
-</div>
 - ✅ **Real-Time Sync** keeping DW within 5 minutes of OLTP
 
 ## Sample Questions
@@ -218,6 +178,55 @@ The system comes with starter questions for immediate testing:
 ```
 
 Ask more questions once you get the idea of the problem I am trying to solve!
+
+---
+
+## Visual Documentation
+
+### AI-Powered Analytics Interface
+Agentic RAG generating actionable business recommendations and merchant insights.
+
+<div align="center">
+
+![AI Analytics Interface](imgs/image%20(17).png)
+
+</div>
+
+### ETL & Data Synchronization
+Real-time ETL dashboard showing CDC-based synchronization between OLTP (PostgreSQL) and DW (MySQL).
+
+<div align="center">
+
+![ETL Management](imgs/image%20(14).png)
+
+</div>
+
+### Database Partitioning Strategy
+High-performance data distribution across 72+ partitions for optimized time-series queries.
+
+<div align="center">
+
+![Database Partitioning](imgs/image%20(15).png)
+
+</div>
+
+### Enterprise Security & RBAC
+Enterprise-grade Role-Based Access Control (RBAC) interface for secure data access.
+
+<div align="center">
+
+![RBAC Security](imgs/image%20(10).png)
+
+</div>
+
+### Bulk Data Ingestion
+SQL Bulk Loader interface for large-scale offline data ingestion and validation.
+
+<div align="center">
+
+![Bulk Data Ingestion](imgs/image%20(8).png)
+
+</div>
 
 ---
 
