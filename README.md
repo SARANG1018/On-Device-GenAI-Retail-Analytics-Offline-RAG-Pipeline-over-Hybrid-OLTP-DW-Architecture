@@ -61,6 +61,14 @@ Zero data leakage. No API calls to OpenAI/Gemini. 2-5 second query response. Wor
 
 **Result**: The system handles common questions instantly (keyword matching) and novel questions accurately (informed LLM) while maintaining complete privacy.
 
+<div align="center">
+
+![AI Analytics Interface](imgs/image_17.jpg)
+
+*Agentic RAG generating actionable business recommendations and merchant insights.*
+
+</div>
+
 ## How It Works: Query Execution
 
 **Standard Question**: "Show me sales by product category"
@@ -157,15 +165,47 @@ streamlit run main.py
 
 Access at `http://localhost:8501`
 
+<div align="center">
+
+![Bulk Data Ingestion](imgs/image_8.png)
+
+*SQL Bulk Loader interface for large-scale offline data ingestion and validation.*
+
+</div>
+
 ## Key Achievements
 
 - ✅ **Sub-30 Second ETL** for 96K+ records (CDC-based incremental load)
+
+<div align="center">
+
+![ETL Management](imgs/image_14.png)
+
+*Real-time ETL dashboard showing CDC-based synchronization between OLTP (PostgreSQL) and DW (MySQL).*
+
+</div>
 - ✅ **Keyword-Based Reliability** with 35 pre-trained business questions
 - ✅ **Zero Cloud Data Leakage** using local Ollama/Mistral LLM only
 - ✅ **Complete Privacy** with PII masking and audit logging
 - ✅ **Multi-Role System** with database-level RBAC (Sales Associate, Store Manager, Executive)
+
+<div align="center">
+
+![RBAC Security](imgs/image_10.png)
+
+*Enterprise-grade Role-Based Access Control (RBAC) interface for secure data access.*
+
+</div>
 - ✅ **7 Data Quality Checks** running automatically before each load
 - ✅ **96 Monthly Partitions** enabling 10x faster time-series queries
+
+<div align="center">
+
+![Database Partitioning](imgs/image_15.jpg)
+
+*High-performance data distribution across 72+ partitions for optimized time-series queries.*
+
+</div>
 - ✅ **Real-Time Sync** keeping DW within 5 minutes of OLTP
 
 ## Sample Questions
