@@ -63,7 +63,7 @@ Zero data leakage. No API calls to OpenAI/Gemini. 2-5 second query response. Wor
 
 <div align="center">
 
-![AI Analytics Interface](imgs/image_17.jpg)
+![AI Analytics Interface](imgs/image%20(17).png)
 
 *Agentic RAG generating actionable business recommendations and merchant insights.*
 
@@ -167,7 +167,7 @@ Access at `http://localhost:8501`
 
 <div align="center">
 
-![Bulk Data Ingestion](imgs/image_8.png)
+![Bulk Data Ingestion](imgs/image%20(8).png)
 
 *SQL Bulk Loader interface for large-scale offline data ingestion and validation.*
 
@@ -179,7 +179,7 @@ Access at `http://localhost:8501`
 
 <div align="center">
 
-![ETL Management](imgs/image_14.png)
+![ETL Management](imgs/image%20(14).png)
 
 *Real-time ETL dashboard showing CDC-based synchronization between OLTP (PostgreSQL) and DW (MySQL).*
 
@@ -191,7 +191,7 @@ Access at `http://localhost:8501`
 
 <div align="center">
 
-![RBAC Security](imgs/image_10.png)
+![RBAC Security](imgs/image%20(10).png)
 
 *Enterprise-grade Role-Based Access Control (RBAC) interface for secure data access.*
 
@@ -201,7 +201,7 @@ Access at `http://localhost:8501`
 
 <div align="center">
 
-![Database Partitioning](imgs/image_15.jpg)
+![Database Partitioning](imgs/image%20(15).png)
 
 *High-performance data distribution across 72+ partitions for optimized time-series queries.*
 
