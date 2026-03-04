@@ -53,6 +53,7 @@ AI Query Layer
 **Why Keyword Matching?**
 Pre-trained answers (35 carefully curated Q→SQL pairs) ensure 90% of queries get fast, reliable results. No LLM hallucination. No unpredictable SQL generation.
 
+
 **Why LLM Fallback?**
 Novel analytical questions that don't match training data get answered by local Ollama/Mistral. The LLM has full database schema, join patterns, and business rules in its system prompt, enabling accurate SQL generation.
 
@@ -229,4 +230,6 @@ SQL Bulk Loader interface for large-scale offline data ingestion and validation.
 </div>
 
 ---
-
+## Contributors
+- Sarang Kadakia
+- Sajitha Mathi
